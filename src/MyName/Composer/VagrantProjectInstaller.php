@@ -30,7 +30,7 @@ class MyProjectInstaller extends LibraryInstaller
      */
     public function supports($packageType)
     {
-        return 'my-project' === $packageType;
+        return 'mysoftware-module' === $packageType;
     }
     
     /**
