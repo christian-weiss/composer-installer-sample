@@ -1,0 +1,15 @@
+{
+  "name": "myname/myproject-installer-plugin",
+  "description": "This composer installer plugin installs composer packages of type 'my-project' to the desired location.",
+  "type": "composer-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-0": {"MyName\\Composer": "src/"}
+  },
+  "extra": {
+    "class": "MyName\\Composer\\MyProjectInstallerPlugin"
+  },
+  "require": {
+    "composer-plugin-api": "^1.0"
+  }
+}
